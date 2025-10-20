@@ -1,0 +1,50 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log
+
+# Expo / React Native
+.expo/
+.expo-shared/
+android/.gradle/
+android/app/build/
+android/build/
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+*.keystore
+
+# Buck / Metro / Gradle
+.gradle/
+.bundle/
+*.keystore
+
+# Xcode
+*.xcworkspace
+!Podfile
+*.xcuserstate
+*.ipa
+DerivedData/
+
+# Misc OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+secrets/
+*.pem
+
+# Logs and coverage
+coverage/
+*.log
+
+# Metro cache
+.expo/
+.cache/
+tmp/
